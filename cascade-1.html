@@ -12,14 +12,40 @@
                 #l{
                     font-style: bold
                 }
+                .part {
+                    display: inline;
+                }
+                .full {
+                    display: block;
+                }
+                .secret {
+                    display: none;
+                }
+                p {
+                    background-color: brown;
+                    color: white
+                }
+                #b {
+                    background-color: bisque
+                }
             </style>
 </head>
 <body>
     <h1>Have a</h1>
     <h3 class="important" id="l">nice-day</h3>
-    <p>
+    <p id="b">
         <a href="workmail.yulia@gmail.com">workmail.yulia@gmail.com</a>,
         <a href="https://github.com/Yulia-NC">github.com/Yulia-NC</a>
     </p>
+    <p class="full">
+        This element - display: block
+    </p>
+    <p class="part">
+        This one - display: inline
+    </p>
+    <p class="part">
+        And this one too.
+    </p>
+    <p class="secret">And this one - none</p>
 </body>
 </html>
